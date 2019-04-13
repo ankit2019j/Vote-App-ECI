@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Vote app Chandni cHOWK</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ob_header1">ECI</string>
+    <string name="ob_header2">Chandni Chowk</string>
+    <string name="ob_header3">10 constituencies</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+    <string name="google_maps_API_key">AIzaSyBB1_Zk9K7EQLls7dEaHcf_vvkTefnQBX0</string>
+
+    <string name="ob_desc1">The Election Commission of India is an autonomous constitutional authority responsible for administering election processes in India</string>
+    <string name="ob_desc2">It is the perfect place to shop in. This densely populated market has been around for more than three centuries and was once visited by merchants from Turkey, China and even Holland</string>
+    <string name="ob_desc3"> </string>
+
+</resources>
