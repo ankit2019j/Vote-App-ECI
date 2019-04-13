@@ -32,7 +32,7 @@ public class knowyourpollingActivity extends AppCompatActivity {
         final Button button = (Button) findViewById(R.id.button);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://votecc.herokuapp.com/booth")
+                .baseUrl("https://votecc.herokuapp.com/")
                 .build();
 
         final HerokuService service = retrofit.create(HerokuService.class);
