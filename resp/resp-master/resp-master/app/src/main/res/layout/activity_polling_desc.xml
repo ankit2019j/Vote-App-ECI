@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".polling_desc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i1"
+                        android:src="@drawable/drop"
+                        android:padding="15dp"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di1"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+
+
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i2"
+                        android:src="@drawable/electricity"
+                        android:padding="15dp"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di2"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i3"
+                        android:src="@drawable/toilet"
+                        android:padding="15dp"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di3"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i4"
+                        android:layout_gravity="top"
+                        android:src="@drawable/babybottle"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di4"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i5"
+                        android:src="@drawable/ramp"
+                        android:padding="15dp"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di5"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:id="@+id/i6"
+                    android:src="@drawable/medicalkit"
+                    android:padding="15dp"
+                    android:layout_gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    />
+
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:padding="50dp"
+                android:textColor="#000000"
+                android:text="NOT AVAILABLE"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:id="@+id/i7"
+                    android:src="@drawable/help"
+                    android:padding="15dp"
+                    android:layout_gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/di7"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    />
+
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:padding="50dp"
+                android:textColor="#000000"
+                android:text="NOT AVAILABLE"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:id="@+id/i8"
+                    android:src="@drawable/information"
+                    android:padding="15dp"
+                    android:layout_gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/di8"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    />
+
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:padding="50dp"
+                android:textColor="#000000"
+                android:text="NOT AVAILABLE"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:id="@+id/i9"
+                    android:src="@drawable/bussideview"
+                    android:padding="15dp"
+                    android:layout_gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/di9"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    />
+
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:padding="50dp"
+                android:textColor="#000000"
+                android:text="NOT AVAILABLE"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i10"
+                        android:src="@drawable/couch"
+                        android:padding="15dp"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di10"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+
+
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/i11"
+                        android:src="@drawable/houseandshade"
+                        android:padding="15dp"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/di11"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        />
+
+
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="50dp"
+                    android:textColor="#000000"
+                    android:text="NOT AVAILABLE"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
