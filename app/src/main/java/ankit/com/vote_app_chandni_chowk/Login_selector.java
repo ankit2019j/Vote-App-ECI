@@ -14,13 +14,18 @@ public class Login_selector extends AppCompatActivity {
     }
     public void onepiclogin(View view)
     {
-        Intent intent=new Intent(Login_selector.this,MainActivity.class);
+        Intent intent=new Intent(Login_selector.this,epic_web.class);
         startActivity(intent);
 
     }
     public void onepicskip(View view)
     {
-        Intent intent=new Intent(Login_selector.this,main_selector.class);
+        Intent intent=new Intent(Login_selector.this,booth_search.class);
+        startActivity(intent);
+
+    }
+    public void onUserPass(View view){
+        Intent intent=new Intent(Login_selector.this,login.class);
         startActivity(intent);
 
     }

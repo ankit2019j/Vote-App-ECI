@@ -42,7 +42,10 @@
         <activity android:name=".MapActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".polling_desc" />
-        <activity android:name=".google_web"></activity>
+        <activity android:name=".google_web" />
+        <activity android:name=".epic_web" />
+        <activity android:name=".booth_search" />
+        <activity android:name=".check_info"></activity>
     </application>
 
 </manifest>
